@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .background{
+            /* background: url("img.jpg/pexels-egor-kame"); */
+            background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("pic/pexels-tim-mossholder-3708459.jpg") no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+
+        .head{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          width: 100%;
+      }
+
+        img{
+            width: 100%;
+        }
+        p{
+          margin-left: 400px;
+          margin-top: 10px;
+          font-size: 20px;
+          color: white ;
+          font-style: italic;
+          transition: all 2s ease-out;
+          /* position: sticky; */
+        }
+        p:hover{
+            color: rgb(75, 75, 75);
+        }
+        h1{
+            font-size: 40px;
+            color: rgb(177, 250, 104);
+            transition: all 2s ease-out;
+            
+        }
+        h1:hover{
+              color: #000000; 
+        }
+        /* .div-img{
+            background: url("pexels-egor-kamelev-1685650.jpg") no-repeat center center/cover;
+            Width: 50%;
+            height: 100%;
+           
+        } */
+
+      /* .div-content{
+          background: url("pexels-monique-laats-733116.jpg") no-repeat center center/cover;
+          height: 400px;
+          border-spacing: 10px; */
+            
+      /* } */
+      nav{
+          
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          text-align: center;
+          padding: 0 30px;
+          height: 70px;
+          width: 100%;
+          /* flex-direction: row; */
+          background: rgb(68, 68, 68);
+          position: sticky;
+          top: 0;
+          
+    
+
+      }
+
+      ul{
+          display: flex;
+          list-style: none;
+        
+          /* align-items: flex-end; */
+          /* margin-left: 1000px; */
+         
+      }
+      
+      nav ul li a{
+                 padding: 10px 20px;
+                 text-decoration: none;
+                 color: white;
+                 font-size: 20px;
+                 font-family: cursive;
+                 
+
+
+      }
+      nav ul li a:hover{
+         border-bottom: black 5px solid;
+         
+         }
+    .flex-items{
+          display: flex;
+          height: 400px;
+          
+
+          
+          
+      }
+      .div-items{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 0 40px;
+          
+          background: url("pic/pexels-fwstudio-132192.jpg") no-repeat center center/cover;
+          height: 300px;
+         
+          /* border-radius: 5px; */
+          /* color: black; */
+      }
+      p1{
+          color: black;
+      }
+      .div-img{
+        background: url("pic/pexels-cup-of-couple-7301811.jpg") no-repeat center center/cover;
+         
+          width: 50%;
+        /* border-radius: 5px; */
+          
+          /* background: black; */
+          height: 300px;
+          
+
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Services</a> </li>
+            <li> <a href="form.html">Form</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li> <a href="#">Contact</a> </li>
+            
+        </ul>
+    </nav>
+   
+    <div class="background"> 
+       
+    <div class="head">
+        <h1>
+            Welcome To Victoria Block Site
+        </h1>
+        <p>
+            The Home of All Super Blocks.....
+        </p>
+    </div>  
+</div>
+    <div class="flex-items">
+    <div class="div-img"></div>
+<div id="about" class="div-items">
+    <h1>ABOUT US</h1>
+    <P1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quisquam, neque, itaque voluptate ipsam dolorum nihil debitis saepe aliquid eligendi hic provident ducimus labore officia minima. Eos tempora amet aut.
+    </P1>
+</div>
+</div>
+
+</body>
+</html>
